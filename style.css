@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu;
 }
 body {
   margin: 0px;
@@ -39,6 +39,7 @@ body {
 .column-header {
   font-size: 25px;
   position: relative;
+  background-color: white;
   top: 8px;
 }
 #big_coffee {
@@ -50,7 +51,6 @@ body {
 .counter-container {
   font-size: 30px;
   margin: 10px;
-  color: #000000c2
 }
 
 .cps-container {
