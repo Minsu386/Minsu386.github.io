@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 body {
   margin: 0px;
+  background-color: #af7a2abe;
 }
 .column-container {
   display: flex;
@@ -47,6 +51,7 @@ body {
 .counter-container {
   font-size: 30px;
   margin: 10px;
+  color: #000000c2
 }
 
 .cps-container {

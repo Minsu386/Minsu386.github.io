@@ -132,7 +132,8 @@ function updateCPSView(cps) {
 
 function updatePrice(oldPrice) {
   // your code here
-  return Math.floor(oldPrice * 1.25);
+  // changed price for increase game speed. 
+  return Math.floor(oldPrice * 1.01); 
 }
 
 function attemptToBuyProducer(data, producerId) {
@@ -175,6 +176,9 @@ function tick(data) {
   
 }
 
+
+
+
 /*************************
  *  Start your engines!
  *************************/
@@ -191,7 +195,7 @@ function tick(data) {
 // we can see if we're in node by checking to see if `process` exists.
 if (typeof process === 'undefined') {
   // Get starting data from the window object
-  // (This comes from data.js)
+  // (This comes from data.js)  
   const data = window.data;
 
   // Add an event listener to the giant coffee emoji
